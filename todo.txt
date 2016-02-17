@@ -1,0 +1,2 @@
+- Figure out how container divs are organized and work
+- What kind of devices the @media tags in CSS are targeted
