@@ -1,2 +1,9 @@
 - Figure out how container divs are organized and work
 - What kind of devices the @media tags in CSS are targeted
+- What is a CSS preprocessor?
+- DO we need the all of the three attributes when linking CSS? Or is including rel and href enough.
+- what parts of css make the article dynamicly responsive?
+- the alternative values of box-sizing css property
+- a good box-sizing reset
+- pseudoelements: before and after
+- determining px to em conversion; research differences

@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=PlayfairDisplay);
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: url("http://farm4.staticflickr.com/3485/3288052387_716d3696d8_o.jpg") no-repeat;
+	background-size: 100%;
+	background-position: top center;
+	margin:0;
+	padding:0;
+	background-attachment: fixed;
+	font-size: 22px;
+	line-height: 32px;
+	color: #333333;
+	font-family: Playfair Display, Serif;
+}
+
+/*nav {
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  border-bottom: 1px solid #333333;
+}*/
+
+/*nav .inner {
+  width: 60%;
+  margin: 0 auto;
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  display: inline;
+  margin: 0 0 0 50px;
+}*/
+
+h1 {
+	font-size: 120px;
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin: 25% 0;
+}
+
+/*@media (max-width: 800px) {
+  h1 {
+    font-size: 60px;
+  }
+}*/
+
+/*a {
+  text-decoration: none;
+  color: #34495e;
+}
+a:hover {
+  color: #2c3e50;
+  text-decoration: underline;
+}*/
+
+/*Important part of making the chapter-title-bg img here
+-by setting a hard limit to how large all images should be, you get this!*/
+img {
+	width: 100%;
+}
+
+/*What do % values refer to? -> Their containing box*/
+/*Background images/colors also cascade allowing you to ignore excess of a particular photo*/
+/*The min-height lets you guarantee you're always taking a page's length*/
+.wrapper {
+	background: #ffffff;
+	width: 100%;
+	min-height: 100%;
+	border: 2px dotted black;
+}
+
